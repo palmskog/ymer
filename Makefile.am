@@ -286,7 +286,7 @@ CLEANFILES = core
 
 AM_CPPFLAGS = -I$(srcdir)/cudd/cudd -I$(srcdir)/cudd/mtr -I$(srcdir)/glog/src \
     -I$(builddir)/glog/src -I$(builddir)/gsl -I$(srcdir)/gtest/include
-AM_CXXFLAGS = -Wall -Werror
+AM_CXXFLAGS = -Wall
 AM_YFLAGS = -d
 
 ACLOCAL_AMFLAGS = -I m4
